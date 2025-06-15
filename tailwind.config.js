@@ -1,6 +1,10 @@
 tailwind.config = {
     theme: {
         extend: {
+             fontFamily: {
+        poppins: ['Poppins', 'sans-serif'],
+         montserrat: ['Montserrat', 'sans-serif'],
+      },
             gridTemplateColumns: {
                 'auto': 'repeat(auto-fit, minmax(200px, 1fr))'
             },
